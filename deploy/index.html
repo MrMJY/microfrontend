@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta name="importmap-type" content="systemjs-importmap" />
+  <!-- 需要引入的 -->
+  <script type="systemjs-importmap" src="/src/config/importmap.json"></script>
+  <script src="/src/systemjs/import-map-overrides.js"></script>
+  <script src="/src/systemjs/system.js"></script>
+  <script src="/src/systemjs/amd.js"></script>
+  <script src="/src/systemjs/named-exports.js"></script>
+</head>
+<body>
+  <script>
+    System.import('root-config')
+  </script>
+</body>
+</html>

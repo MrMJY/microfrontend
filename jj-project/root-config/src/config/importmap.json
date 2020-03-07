@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "vue": "http://localhost:2345/shared-dependencies/src/dependencies/js/vue.js",
+    "vuex": "http://localhost:2345/shared-dependencies/src/dependencies/js/vuex.js",
+    "vue-router": "http://localhost:2345/shared-dependencies/src/dependencies/js/vue-router.js",
+    "root-config": "http://localhost:7000/root-config.js",
+    "single-spa": "http://localhost:2345/shared-dependencies/src/dependencies/js/single-spa.min.js",
+    "single-spa-vue": "http://localhost:2345/shared-dependencies/src/dependencies/js/single-spa-vue.min.js",
+    "frame": "http://localhost:8000/app.js",
+    "gcjs": "http://localhost:8001/app.js",
+    "ghjh": "http://localhost:8002/app.js"
+  }
+}
